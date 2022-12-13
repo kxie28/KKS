@@ -1,0 +1,23 @@
+.KKS__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.KKS__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.KKS__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.KKS__navbar-links_logo img {
+    width: 62.56px;
+    height: 16.02px;
+}
