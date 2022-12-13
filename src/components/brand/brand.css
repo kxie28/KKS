@@ -1,0 +1,17 @@
+.KKS__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.KKS__brand div {
+    flex: 1;
+    width: 71.1px;
+    height: 24.15px;
+    margin: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
