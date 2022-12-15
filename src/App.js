@@ -12,7 +12,6 @@ const App = () => {
         <Header />
       </div>
       <Brand />
-      <WhatKKS />
       <Features />
       <Possibility />
       <CTA />

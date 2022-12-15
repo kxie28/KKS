@@ -1,22 +1,60 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import { NavLink } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#wkks">What is KKS?</a></p>
-  <p><a href="#possibility">Open AI</a></p>
-  <p><a href="#features">Case Studies</a></p>
-  <p><a href="#blog">Portfolio</a></p>
+    <p>
+      <a>
+        <NavLink to="/">
+          Home
+        </NavLink>
+      </a>
+    </p>
+    <p>
+      <a>
+        <NavLink to="/whatiskks">
+          What is KKS?  
+        </NavLink>
+      </a>
+    </p>
+    <p>
+      <a>
+        <NavLink to="/possibility">
+          Open AI 
+        </NavLink>
+      </a>
+    </p>
+    <p>
+      <a>
+        <NavLink to="/features">
+          Features
+        </NavLink>
+      </a>
+    </p>
+    <p>
+      <a>
+        <NavLink to="/blog">
+          Blog
+        </NavLink>
+      </a>
+    </p>
+    <p>
+      <a>
+        <NavLink to="/cta">
+          CTA
+        </NavLink>
+      </a>
+    </p>
   </>
 )
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="KKS__navbar">
+    <div className="KKS__navbar gradient__bg">
       <div className="KKS__navbar-links">
         <div classNAme="KKS__navbar-links_logo">
           <img src={logo} alt="logo" />
