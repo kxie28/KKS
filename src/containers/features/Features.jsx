@@ -1,5 +1,5 @@
-import React from 'react'
-import { Feature } from '../../components'
+import React from 'react';
+import { Feature } from '../../components';
 import './features.css';
 
 const featuresData = [
@@ -30,7 +30,7 @@ const Features = () => {
       </div>
       <div className="KKS__features-container">
         {featuresData.map((item, index) => (
-          <Feature />
+          <Feature title={item.title} text={item.text} key={item.title + index}/>
         ))}
       </div>
     </div>
