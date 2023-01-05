@@ -23,7 +23,7 @@ const Menu = () => (
     <p>
       <a>
         <NavLink to="/possibility">
-          Open AI 
+          Capabilities 
         </NavLink>
       </a>
     </p>
