@@ -1,0 +1,8 @@
+.KKS__footer p {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 2rem;
+}
